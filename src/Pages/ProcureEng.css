@@ -1,0 +1,104 @@
+/* General Page Styling */
+body {
+    background-color: #f4f7fc;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #343a40 !important;
+}
+
+.navbar-brand img {
+    margin-right: 8px;
+}
+
+.navbar .nav-link {
+    color: white !important;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar .nav-link:hover {
+    color: #17a2b8 !important;
+}
+
+/* Vendor Heading */
+.vendorHeading {
+    color: white;
+    background: linear-gradient(135deg, #4a00e0, #8e2de2);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* Vendor Card Section */
+.vendor-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Vendor Card Grid */
+.vendor-card .row {
+    display: flex;
+    justify-content: center;
+}
+
+/* Vendor Card */
+.vendor-card .card {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.vendor-card .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Text Centering for Empty State */
+.text-center {
+    text-align: center;
+}
+
+/* Button Styling */
+.button {
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.button:hover {
+    background: #0056b3;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .vendorHeading {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .vendor-card {
+        padding: 15px;
+    }
+
+    .vendor-card .card {
+        margin-bottom: 15px;
+    }
+}

@@ -1,0 +1,126 @@
+   /* Navbar Styling */
+  .nav4 {
+    background-color: #617d98 !important;
+    padding: 10px 20px;
+    color: #f2f2f2;
+  }
+  
+  /* Heading Styling */
+  .heading {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .heading h2 {
+    font-weight: bold;
+    color: #343a40;
+  }
+  
+  .heading a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #343a40;
+  }
+  
+  .heading a:hover {
+    text-decoration: underline;
+    color: #212529;
+  }
+  
+  /* Order Status Table */
+  .table-container {
+    width: 90%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .table-container h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #343a40;
+  }
+  
+  .order-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .order-table thead {
+    background-color: #343a40;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .order-table th,
+  .order-table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .order-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .order-table tbody tr:hover {
+    background-color: #e9ecef;
+    transition: 0.3s;
+  }
+  
+  /* Delete Button */
+  button {
+    border: none;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+  }
+  
+  button i {
+    font-size: 16px;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* No Orders Found Message */
+  .text-danger {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .table-container {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .heading {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .order-table thead {
+      font-size: 14px;
+    }
+  
+    .order-table th,
+    .order-table td {
+      padding: 8px;
+      font-size: 14px;
+    }
+  }
+  

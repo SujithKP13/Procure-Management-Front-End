@@ -1,0 +1,80 @@
+/* Footer.css */
+
+/* General Footer Styling */
+footer {
+    background-color: #343a40;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
+  /* Overview Section */
+  .overview h5 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-weight: 700;
+  }
+  
+  .overview p {
+    color: white;
+    text-align: justify;
+    line-height: 1.6;
+  }
+  
+  /* Functions and Guides Section */
+  .functions, .guides {
+    color: white;
+  }
+  
+  .functions h4, .guides h4 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+  
+  .functions ul, .guides ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .functions li, .guides li {
+    margin-bottom: 5px;
+  }
+  
+  /* Contact Us Section */
+  .contact_us h4 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+  
+  .contact_us input {
+    width: 70%;
+    padding: 5px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+  
+  .contact_us button {
+    background-color: #ffc107;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .contact_us .fa {
+    margin: 0 10px;
+    color: #ffc107;
+    transition: color 0.3s;
+  }
+  
+  .contact_us .fa:hover {
+    color: #ffffff;
+  }
+  
+  /* Footer Text */
+  .footer-text {
+    margin-top: 20px;
+    color: #868e96;
+    font-size: 0.9em;
+  }

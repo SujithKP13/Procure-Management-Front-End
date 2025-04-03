@@ -1,0 +1,75 @@
+/* Welcome Section */
+.welcome-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.content-wrapper {
+    max-width: 800px;
+    text-align: center;
+}
+
+/* Features Section */
+.features-container {
+    text-align: center;
+    padding: 50px;
+}
+
+.features-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.feature-card {
+    width: 19rem;
+    text-align: center;
+}
+
+.feature-img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Content Section */
+.content{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 2px;
+}
+.content-container {
+    background-color: #f8f9fa;
+}
+
+.textStyle {
+    font-size: 1.2rem;
+    color: #333;
+    text-align: justify;
+}
+
+/* Button Styling */
+.btn-warning {
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-warning:hover {
+    background-color: #ffcc00;
+    color: black;
+    transform: scale(1.05);
+}
+
+h3 {
+    font-weight: bolder;
+}
+
+.title{
+    font-size: 2rem;
+    font-weight: 800;
+}

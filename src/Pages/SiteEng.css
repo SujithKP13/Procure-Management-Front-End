@@ -1,0 +1,85 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Styles */
+.nav3 {
+  background-color: #343a40 !important;
+}
+.nav3 a {
+  color: white !important;
+  margin-right: 15px;
+}
+
+/* Modal Styles */
+.modal-header {
+  background-color: #343a40;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.modal-header img {
+  margin-right: 10px;
+}
+
+.order-form {
+  padding: 10px;
+}
+
+.order-form input,
+.order-form button {
+  margin-bottom: 10px;
+}
+
+/* Table Styles */
+.main-container {
+  margin: 20px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.processed-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.processed-table th, .processed-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.processed-table th {
+  background-color: #343a40;
+  color: white;
+}
+.processed-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Order Status Styles */
+.status-delivered {
+  color: green;
+  font-weight: bold;
+}
+.status-rejected {
+  color: red;
+  font-weight: bold;
+}
+.status-pending {
+  color: orange;
+  font-weight: bold;
+}
+
+/* Button Styling */
+button {
+  cursor: pointer;
+}
+
+.d-flex button {
+  margin: 5px;
+}
